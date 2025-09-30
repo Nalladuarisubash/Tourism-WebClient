@@ -1,0 +1,104 @@
+{
+    "ReadFeedback": {
+        "data": {
+            "AverageRating": "4.7",
+            "RatingPersentage": [
+                {
+                    "starValue": 5,
+                    "percentage": 66.66666666666666
+                },
+                {
+                    "starValue": 4,
+                    "percentage": 33.33333333333333
+                },
+                {
+                    "starValue": 3,
+                    "percentage": 0
+                },
+                {
+                    "starValue": 2,
+                    "percentage": 0
+                },
+                {
+                    "starValue": 1,
+                    "percentage": 0
+                }
+            ],
+            "Reviews": [
+                {
+                    "FeedbackID": 1,
+                    "StarRating": 5,
+                    "Review": "Perfect beach for parties and nightlife. Tito's Lane was energetic and fun! The crowd was lively and the music from the beach clubs kept us dancing all night. A must-visit if you're in Goa for fun.",
+                    "IsDeleted": false,
+                    "CreatedBy": "Nalan",
+                    "CreatedDate": "2025-07-10T08:30:00.000Z",
+                    "ModifiedBy": null,
+                    "ModifiedDate": null,
+                    "DestinationID": 1
+                },
+                {
+                    "FeedbackID": 2,
+                    "StarRating": 4,
+                    "Review": "Water sports were thrilling! Jetski and parasailing were worth it. Though slightly overpriced, the experience was unforgettable. The instructors were professional and ensured safety at all times.",
+                    "IsDeleted": false,
+                    "CreatedBy": "Nalladurai",
+                    "CreatedDate": "2025-07-12T12:45:00.000Z",
+                    "ModifiedBy": null,
+                    "ModifiedDate": null,
+                    "DestinationID": 1
+                },
+                {
+                    "FeedbackID": 3,
+                    "StarRating": 3,
+                    "Review": "Beach was crowded but still had a good time. Sunset was beautiful and calming. If you're looking for a peaceful experience, early mornings or weekdays are better. Vendors can be a bit pushy.",
+                    "IsDeleted": false,
+                    "CreatedBy": "Bala",
+                    "CreatedDate": "2025-07-15T16:20:00.000Z",
+                    "ModifiedBy": null,
+                    "ModifiedDate": null,
+                    "DestinationID": 1
+                },
+                {
+                    "FeedbackID": 4,
+                    "StarRating": 5,
+                    "Review": "Loved the vibe! Beach shacks served delicious seafood. We tried the grilled prawns and butter garlic calamari - both were amazing. The service was quick and prices were decent. Great place to chill.",
+                    "IsDeleted": false,
+                    "CreatedBy": "Sheik",
+                    "CreatedDate": "2025-07-17T10:00:00.000Z",
+                    "ModifiedBy": null,
+                    "ModifiedDate": null,
+                    "DestinationID": 1
+                }
+            ]
+        },
+        "status": 200,
+        "message": "[MOCK] Feedback has been read successfully"
+    },
+    "CreateFeedback": {
+        "data": {
+            "FeedbackID": 1,
+            "StarRating": 5,
+            "Review": "Amazing experience! The place was beautiful.",
+            "IsDeleted": false,
+            "CreatedBy": "Admin",
+            "CreatedDate": "2025-03-11T10:00:00.000Z",
+            "DestinationID": 1
+        },
+        "status": 200,
+        "message": "[Mock] Feedback has been created successfully"
+    },
+    "EditFeedbackData": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[Mock] Feedback has been edited successfully"
+    },
+    "DeleteFeedbackData": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[Mock] Feedback has been deleted successfully"
+    }
+}

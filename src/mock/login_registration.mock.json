@@ -1,0 +1,150 @@
+{
+    "ReadAdminData": {
+        "data": [
+            {
+                "AdminID": 1,
+                "AdminName": "Nalladurai",
+                "EmailID": "nalan007@gmail.com",
+                "Country": "India",
+                "ContactNumber": "8752834383",
+                "CreatedDate": "2025-07-04T09:35:18.172Z",
+                "DestinationData": {
+                    "totalDestinationCount": 25,
+                    "approvalStatus": 20,
+                    "notApprovalStatus": 5
+                }
+            },
+            {
+                "AdminID": 2,
+                "AdminName": "Alan",
+                "EmailID": "alan1123@gmail.com",
+                "Country": "India",
+                "ContactNumber": "8465748484",
+                "CreatedDate": "2025-07-04T09:45:00.513Z",
+                "DestinationData": {
+                    "totalDestinationCount": 12,
+                    "approvalStatus": 8,
+                    "notApprovalStatus": 4
+                }
+            },
+            {
+                "AdminID": 3,
+                "AdminName": "Nova",
+                "EmailID": "nova323@gmail.com",
+                "Country": "America",
+                "ContactNumber": "5987843984",
+                "CreatedDate": "2025-07-04T09:52:52.497Z",
+                "DestinationData": {
+                    "totalDestinationCount": 15,
+                    "approvalStatus": 10,
+                    "notApprovalStatus": 5
+                }
+            },
+            {
+                "AdminID": 4,
+                "AdminName": "Maya",
+                "EmailID": "maya789@gmail.com",
+                "Country": "India",
+                "ContactNumber": "9876543210",
+                "CreatedDate": "2025-07-05T10:10:12.183Z",
+                "DestinationData": {
+                    "totalDestinationCount": 8,
+                    "approvalStatus": 5,
+                    "notApprovalStatus": 3
+                }
+            },
+            {
+                "AdminID": 5,
+                "AdminName": "Liam",
+                "EmailID": "liam932@gmail.com",
+                "Country": "UK",
+                "ContactNumber": "447812345678",
+                "CreatedDate": "2025-07-05T12:30:00.000Z",
+                "DestinationData": {
+                    "totalDestinationCount": 12,
+                    "approvalStatus": 12,
+                    "notApprovalStatus": 0
+                }
+            },
+            {
+                "AdminID": 6,
+                "AdminName": "Sara",
+                "EmailID": "sara123@gamil.com",
+                "Country": "Canada",
+                "ContactNumber": "16475554433",
+                "CreatedDate": "2025-07-06T08:22:48.932Z",
+                "DestinationData": {
+                    "totalDestinationCount": 5,
+                    "approvalStatus": 2,
+                    "notApprovalStatus": 3
+                }
+            },
+            {
+                "AdminID": 7,
+                "AdminName": "Vikash",
+                "EmailID": "vikash900@gmail.com",
+                "Country": "India",
+                "ContactNumber": "9012345678",
+                "CreatedDate": "2025-07-06T14:18:55.214Z",
+                "DestinationData": {
+                    "totalDestinationCount": 0,
+                    "approvalStatus": 0,
+                    "notApprovalStatus": 0
+                }
+            },
+            {
+                "AdminID": 8,
+                "AdminName": "Emily",
+                "EmailID": "emily748@gmail.com",
+                "Country": "Australia",
+                "ContactNumber": "61412345678",
+                "CreatedDate": "2025-07-07T09:00:10.000Z",
+                "DestinationData": {
+                    "totalDestinationCount": 20,
+                    "approvalStatus": 18,
+                    "notApprovalStatus": 2
+                }
+            }
+        ],
+        "status": 200,
+        "message": "[MOCK] Admin has been read successfully"
+    },
+    "ReadLoginData": {
+        "data": [
+            {
+                "AdminID": 1,
+                "AdminName": "Nalladurai",
+                "EmailID": "nalladuari@gmail.com",
+                "Country": "india",
+                "ContactNumber": "5987843984",
+                "Password": "Nalan4321",
+                "AdminType": "SuperAdmin",
+                "CreatedBy": "Nalladurai",
+                "CreatedDate": "2025-07-04T09:52:52.497Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            }
+        ],
+        "status": 200,
+        "message": "[MOCK] Login has been read successfully"
+    },
+    "CreateRegistrationData": {
+        "data": {
+            "AdminID": 1,
+            "AdminName": "Nalladurai Subash",
+            "EmailID": "nalladuari@gmail.com",
+            "Country": "india",
+            "ContactNumber": "9867478448",
+            "Password": "Nalan@1432",
+            "AdminType": "SuperAdmin",
+            "CreatedBy": "Nalladurai Subash",
+            "CreatedDate": "2025-07-24T09:17:43.630Z",
+            "IsDeleted": false,
+            "ModifiedBy": null,
+            "ModifiedDate": null
+        },
+        "status": 200,
+        "message": "Admin has been created successfully"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "ReadTransportData": {
+        "data": [
+            {
+                "TransportID": 1,
+                "Flight": true,
+                "Ship": true,
+                "Train": true,
+                "Bus": true,
+                "CreatedBy": "Nova",
+                "CreatedDate": "2025-07-05T04:58:50.827Z",
+                "ModifiedBy": null,
+                "ModifiedDate": null,
+                "DestinationID": 1
+            }
+        ],
+        "status": 200,
+        "message": "[Mock] Transport has been read successfully"
+    },
+    "CreateTransport": {
+        "data": {
+            "TransportID": 1,
+            "Flight": true,
+            "Ship": false,
+            "Train": true,
+            "Bus": true,
+            "CreatedBy": "Admin",
+            "CreatedDate": "2025-03-11T09:45:00.000Z",
+            "DestinationID": 1
+        },
+        "status": 200,
+        "message": "[Mock] Transport has been created successfully"
+    },
+    "EdiTransportData": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[Mock] Transport has been edited successfully"
+    }
+}

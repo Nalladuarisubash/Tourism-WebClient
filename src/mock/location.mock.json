@@ -1,0 +1,43 @@
+{
+    "ReadLocationData": {
+        "data": [
+            {
+                "LocationID": 1,
+                "Country": "India",
+                "State": "Goa",
+                "City": "Goa",
+                "Latitude": null,
+                "Longitude": null,
+                "CreatedBy": "Nova",
+                "CreatedDate": "2025-07-05T04:58:50.807Z",
+                "ModifiedBy": null,
+                "ModifiedDate": null,
+                "DestinationID": 1
+            }
+        ],
+        "status": 200,
+        "message": "[Mock] Location has been read successfully"
+    },
+     "CreateLocation": {
+        "data": {
+            "LocationID" : 1,
+            "Country": "India",
+            "State": "Tamil Nadu",
+            "City": "Madurai",
+            "Latitude": 9.9252,
+            "Longitude": 78.1198,
+            "CreatedBy": "Admin",
+            "CreatedDate": "2025-03-11T09:30:21.265Z",
+            "DestinationID": 1
+        },
+        "status": 200,
+        "message": "[Mock] Location has been created successfully"
+    },
+    "EditLocationData": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[Mock] Location has been edited successfully"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "CreateAdventureData": {
+        "data": {
+            "AdventureID": 1,
+            "Boating": true,
+            "RidingAndRacing": true,
+            "Swimming": true,
+            "WildlifeSafari": false,
+            "Surfing": true,
+            "Photography": false,
+            "Trekking": false,
+            "CulturalTours": false,
+            "Camping": false,
+            "Paragliding": true,
+            "DestinationID": 1,
+            "CreatedBy": "Nova",
+            "CreatedDate": "2025-07-05T04:58:50.807Z",
+            "ModifiedBy": null,
+            "ModifiedDate": null
+        },
+        "status": 200,
+        "message": "[Mock] Adventure has been create successfully"
+    },
+    "ReadAdventureData": {
+        "data": [
+            {
+                "AdventureID": 1,
+                "Boating": true,
+                "RidingAndRacing": true,
+                "Swimming": true,
+                "WildlifeSafari": false,
+                "Surfing": true,
+                "Photography": false,
+                "Trekking": false,
+                "CulturalTours": false,
+                "Camping": false,
+                "Paragliding": true,
+                "DestinationID": 1,
+                "CreatedBy": "Nova",
+                "CreatedDate": "2025-07-05T04:58:50.807Z",
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            }
+        ],
+        "status": 200,
+        "message": "[Mock] Adventure has been read successfully"
+    },
+    "EditAdventureData": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[Mock] Adventure has been updated successfully"
+    }
+}

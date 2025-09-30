@@ -1,0 +1,90 @@
+{
+    "ReadUserData": {
+        "data": [
+            {
+                "UserID": 1,
+                "UserName": "Nalan",
+                "EmailID": "nalan@gmail.com",
+                "Country": "India",
+                "Subject": "Website Feedback",
+                "Message": "We’d love to hear from you! The site is user-friendly and informative. Looking forward to seeing more features related to travel planning.",
+                "CreatedBy": "Nalan",
+                "CreatedDate": "2025-07-11T09:25:47.445Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            },
+            {
+                "UserID": 2,
+                "UserName": "Veni",
+                "EmailID": "veni@gmail.com",
+                "Country": "India",
+                "Subject": "Booking Assistance",
+                "Message": "I need help with booking a houseboat in Alleppey. Can someone guide me through the process?",
+                "CreatedBy": "Veni",
+                "CreatedDate": "2025-07-12T06:23:04.656Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            },
+            {
+                "UserID": 3,
+                "UserName": "Ravi",
+                "EmailID": "ravi.kumar@gamil.com",
+                "Country": "India",
+                "Subject": "Mobile App Query",
+                "Message": "Is there a mobile app available for this tourism service? It would be helpful for on-the-go planning.",
+                "CreatedBy": "Ravi",
+                "CreatedDate": "2025-07-12T08:15:30.123Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            },
+            {
+                "UserID": 4,
+                "UserName": "Aarav",
+                "EmailID": "aarav123@gmail.com",
+                "Country": "India",
+                "Subject": "Suggestion",
+                "Message": "Please include more information on offbeat destinations. Hidden gems would attract more nature lovers like me.",
+                "CreatedBy": "Aarav",
+                "CreatedDate": "2025-07-12T12:20:31.812Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            },
+            {
+                "UserID": 5,
+                "UserName": "Sara",
+                "EmailID": "sara@gamil.com",
+                "Country": "USA",
+                "Subject": "Feedback",
+                "Message": "Beautiful website design and smooth navigation. Would love to see filter options by season or type of trip.",
+                "CreatedBy": "sara",
+                "CreatedDate": "2025-07-13T14:45:22.000Z",
+                "IsDeleted": false,
+                "ModifiedBy": null,
+                "ModifiedDate": null
+            }
+        ],
+        "status" : 200,
+        "message" : "[Mock] User has been read successfully"
+    },
+    "CreateUserData": {
+        "data": {
+            "UserID": 1,
+            "UserName": "Nalladurai",
+            "EmailID": "nalladurai@gmail.com",
+            "Country": "INDIA",
+            "Subject": "Support Request",
+            "Message": "I am facing an issue with my account login.",
+            "CreatedBy": "Nalladurai",
+            "CreatedDate": "2025-03-10T10:00:00.000Z",
+            "IsDeleted": false,
+            "ModifiedBy": null,
+            "ModifiedDate": null
+        },
+        "status": 200,
+        "message": "[Mock] User has been created successfully"
+    }
+}

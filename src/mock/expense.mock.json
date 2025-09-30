@@ -1,0 +1,45 @@
+{
+	"ReadExpenseData": {
+		"data": [
+			{
+				"ExpenseID": 1,
+				"StayMinimum": 500,
+				"StayMaximum": 1000,
+				"FoodMinimum": 1001,
+				"FoodMaximum": 5000,
+				"TravelMinimum": 5001,
+				"TravelMaximum": 10000,
+				"CreatedBy": "Nova",
+				"CreatedDate": "2025-07-05T04:58:50.808Z",
+				"ModifiedBy": null,
+				"ModifiedDate": null,
+				"DestinationID": 1
+			}
+		],
+		"status": 200,
+		"message": "Expense has been read successfully"
+	},
+	"CreateExpenseData": {
+		"data": {
+			"ExpenseID": 1,
+			"StayMinimum": 500,
+			"StayMaximum": 1000,
+			"FoodMinimum": 1001,
+			"FoodMaximum": 5000,
+			"TravelMinimum": 5001,
+			"TravelMaximum": 10000,
+			"CreatedBy": "Admin",
+			"CreatedDate": "2025-03-11T10:00:00.000Z",
+			"DestinationID": 1
+		},
+		"status": 200,
+		"message": "[Mock] Expense has been created successfully"
+	},
+	"EditExpenseData": {
+		"data": {
+			"count": 1
+		},
+		"status": 200,
+		"message": "[Mock] Expense has been edited successfully"
+	}
+}
