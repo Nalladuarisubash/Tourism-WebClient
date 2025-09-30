@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm install -f"
+    "postinstall": "npm install -force"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
