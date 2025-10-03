@@ -13,7 +13,7 @@ export default class Location {
             let output = {};
 
             const apiEndpoint = endpoints?.LOCATION_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = LocationMockData?.CreateLocation;
@@ -38,7 +38,7 @@ export default class Location {
             let output = {};
 
             const apiEndpoint = endpoints?.LOCATION_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = LocationMockData?.ReadLocationData
@@ -63,7 +63,7 @@ export default class Location {
             let output = {};
 
             const apiEndpoint = endpoints?.LOCATION_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = LocationMockData?.EditLocationData;
