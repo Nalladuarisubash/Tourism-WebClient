@@ -13,7 +13,7 @@ export default class Destination {
             let output = {};
 
             const apiEndpoint = endpoints?.DESTINATION_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = DestinationMockData?.CreateDestinationData;
@@ -38,7 +38,7 @@ export default class Destination {
             let output = {};
 
             const apiEndpoint = endpoints?.DESTINATION_READ;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = DestinationMockData?.ReadDestination;
@@ -63,7 +63,7 @@ export default class Destination {
             let output = {};
 
             const apiEndpoint = endpoints?.DESTINATION_ONE_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = DestinationMockData?.ReadOneDestination
@@ -88,7 +88,7 @@ export default class Destination {
             let output = {};
 
             const apiEndpoint = endpoints?.DESTINATION_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = DestinationMockData?.EditDestination;
@@ -113,7 +113,7 @@ export default class Destination {
             let output = {};
 
             const apiEndpoint = endpoints?.OVERALL_DETAIL
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = DestinationMockData?.ReadOverAllDetails;
