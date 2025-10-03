@@ -13,7 +13,7 @@ export default class Picture {
             let output = {};
 
             const apiEndpoint = endpoints?.PICTURE_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = PictureMockData?.CreatePictrueData;
@@ -38,7 +38,7 @@ export default class Picture {
             let output = {};
 
             const apiEndpoint = endpoints?.PICTURE_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = PictureMockData?.ReadPictureData;
@@ -64,7 +64,7 @@ export default class Picture {
             let output = {};
 
             const apiEndpoint = endpoints?.PICTURE_REMOVE + `/${requestData}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = PictureMockData?.DeleteImageData;
@@ -89,7 +89,7 @@ export default class Picture {
             let output = {};
 
             const apiEndpoint = endpoints?.PICTURE_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = PictureMockData?.EditImageData;
