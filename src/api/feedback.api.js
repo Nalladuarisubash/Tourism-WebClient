@@ -13,7 +13,7 @@ export default class Feedback {
             let output = {};
 
             const apiEndpoint = endpoints?.FEEDBACK_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = FeedbackMockData?.CreateFeedback;
@@ -38,7 +38,7 @@ export default class Feedback {
             let output = {};
 
             const apiEndpoint = endpoints?.FEEDBACK_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = FeedbackMockData?.ReadFeedback;
@@ -63,7 +63,7 @@ export default class Feedback {
             let output = {};
 
             const apiEndpoint = endpoints?.FEEDBACK_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = FeedbackMockData.EditFeedbackData;
@@ -89,7 +89,7 @@ export default class Feedback {
             let output = {};
 
             const apiEndpoint = endpoints?.FEEDBACK_REMOVE + `/${requestData}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = FeedbackMockData?.EditFeedbackData;
