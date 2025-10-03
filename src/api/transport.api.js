@@ -13,7 +13,7 @@ export default class Transport {
             let output = {};
 
             const apiEndpoint = endpoints?.TRANSPORT_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = TransportMockData?.CreateTransport;
@@ -38,7 +38,7 @@ export default class Transport {
             let output = {};
 
             const apiEndpoint = endpoints?.TRANSPORT_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = TransportMockData?.ReadTransportData;
@@ -63,7 +63,7 @@ export default class Transport {
             let output = {};
 
             const apiEndpoint = endpoints?.TRANSPORT_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = "";
