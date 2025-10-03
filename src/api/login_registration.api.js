@@ -13,7 +13,7 @@ export default class Authentication {
             let output = {};
 
             const apiEndpoint = endpoints?.ADMIN_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = AdminMockData?.CreateRegistrationData;
@@ -38,7 +38,7 @@ export default class Authentication {
             let output = {};
 
             const apiEndpoint = endpoints?.ADMIN_READ;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = AdminMockData?.ReadAdminData;
@@ -63,7 +63,7 @@ export default class Authentication {
             let output = {};
 
             const apiEndpoint = endpoints?.ADMIN_LOGIN;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = AdminMockData?.ReadLoginData;
