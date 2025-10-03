@@ -13,7 +13,7 @@ export default class Expense {
             let output = {};
 
             const apiEndpoint = endpoints?.EXPENSE_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = ExpenseMockData?.CreateExpenseData
@@ -38,7 +38,7 @@ export default class Expense {
             let output = {};
 
             const apiEndpoint = endpoints?.EXPENSE_READ + `/${requestData?.DestinationID}`;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = ExpenseMockData?.ReadExpenseData
@@ -63,7 +63,7 @@ export default class Expense {
             let output = {};
 
             const apiEndpoint = endpoints?.EXPENSE_EDIT;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = ExpenseMockData?.EditExpenseData;
