@@ -14,7 +14,7 @@ export default class User {
             let output = {};
 
             const apiEndpoint = endpoints?.USERCONTACT_CREATE;
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = UserMockData?.CreateUserData;
@@ -39,7 +39,7 @@ export default class User {
             let output = {};
 
             const apiEndpoint = endpoints?.USERCONTACT_READ
-            const IsMockEnable = false;
+            const IsMockEnable = true;
 
             if (IsMockEnable) {
                 output = UserMockData?.ReadUserData;
